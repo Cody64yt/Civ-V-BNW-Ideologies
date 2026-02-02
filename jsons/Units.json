@@ -10,7 +10,7 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost", "Survivalism I"]
+		"promotions": ["Ignore terrain cost", "Survivalism I"],
 		"attackSound": "nonmetalhit"
 	}
 ]

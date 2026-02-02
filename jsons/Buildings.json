@@ -3,21 +3,11 @@
 		"name": "Casino",
 		"gold": 1,
 		"culture": 1,
-		"uniqueTo": "Earthorn"
-		"replaces": "Market"
+		"uniqueTo": "Earthorn",
+		"replaces": "Market",
 		"specialistSlots": {"Merchant": 1, "Artist": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
 	}
 ]

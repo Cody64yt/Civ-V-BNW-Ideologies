@@ -1,9 +1,10 @@
 [
 	{
-		"name": "Market",
+		"name": "Casino",
 		"gold": 1,
 		"culture": 1,
 		"uniqueTo": "Earthorn"
+		"replaces": "Market"
 		"specialistSlots": {"Merchant": 1, "Artist": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},

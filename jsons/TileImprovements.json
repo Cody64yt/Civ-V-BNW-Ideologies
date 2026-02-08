@@ -6,7 +6,7 @@
 		"techRequired": "Construction",
         "uniqueTo": "Lexington",
         "replaces": "Fort",
-		"uniques": ["Can be built just outside your borders", "Gives a defensive bonus of [35]%","[+1] Range <for [Ranged] units>"],
+		"uniques": ["Can be built just outside your borders", "Gives a defensive bonus of [35]%","[+1] Range <for [Ranged] units> <in [Outpost] tiles>"],
 		"shortcutKey": "O"
 	}
 ]

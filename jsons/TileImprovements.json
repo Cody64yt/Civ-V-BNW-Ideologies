@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Outpost",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Construction",
+        "uniqueTo": "Lexington",
+        "replaces": "Fort",
+		"uniques": ["Can be built just outside your borders", "Gives a defensive bonus of [35]%","[+1] Range <for [Ranged] units>"],
+		"shortcutKey": "O"
+	}
+]

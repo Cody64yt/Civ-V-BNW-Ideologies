@@ -1,12 +1,19 @@
 
 game.png
-size: 512, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Lexington
+NationIcons/Earthorn
   rotate: false
   xy: 4, 4
+  size: 999, 893
+  orig: 999, 893
+  offset: 0, 0
+  index: -1
+NationIcons/Lexington
+  rotate: false
+  xy: 1011, 397
   size: 500, 500
   orig: 500, 500
   offset: 0, 0

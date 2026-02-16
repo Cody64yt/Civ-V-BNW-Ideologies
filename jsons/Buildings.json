@@ -32,7 +32,7 @@
 			"Will not be displayed in Civilopedia",
 
 			"Shown while unbuilable <with [Empty Great Work of Writing slot]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Writing] <hidden from users>",
+			"Costs [1] [Great Work of Writing] <hidden from users>",
             "Instantly provides [1] [Filled Great Work of Writing slot]",
 
 			"Comment [Place a Great Work of Writing in this city]",
@@ -49,7 +49,7 @@
 			"Will not be displayed in Civilopedia",
 
 			"Shown while unbuilable <with [Empty Great Work of Art slot]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <hidden from users>",
+			"Costs [1] [Great Work of Art] <hidden from users>",
             "Instantly provides [1] [Filled Great Work of Art slot]",
 
 			"Comment [Place a Great Work of Art in this city]",

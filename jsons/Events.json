@@ -5,8 +5,7 @@
         "presentation": "Alert",
         "choices": [
             {
-                "text": "TEST",
-                "uniques": "Provides [2] [Great Work]"
+                "text": "TEST"
             }
         ]
     }

@@ -6,7 +6,7 @@
 		"techRequired": "Construction",
         "uniqueTo": "Lexington",
         "replaces": "Fort",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "Comment [+1 Range for Ranged units in Outpost tiles]"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "Comment [+1 Range for Lexington Ranged units in Outpost tiles]"],
 		"shortcutKey": "O"
 	},
 	{
@@ -16,6 +16,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
+        "uniqueTo": "Trenchon",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",

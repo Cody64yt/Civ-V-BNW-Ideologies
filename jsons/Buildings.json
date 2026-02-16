@@ -19,7 +19,7 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "Provides [1] [Great Work of Writing slot]"],
+		"uniques": ["Destroyed when the city is captured", "Provides [1] [Great Work of Art slot]"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -30,11 +30,30 @@
 			"Unbuildable <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Will not be displayed in Civilopedia",
-			"Shown while unbuilable <when above [0] [Great Work of Writing slot]> <hidden from users>",
-			"Provides [1] [Placed Great Work of Writing] <hidden from users>",
+
+			"Shown while unbuilable <with [Empty Great Work of Writing slot]> <hidden from users>",
 			"Costs [1] [Great Work of Writing] <hidden from users>",
+			"Provides [1] [Filled Great Work of Writing slot] <hidden from users>",
+
 			"Comment [Place a Great Work of Writing in this city]",
 			"Comment [Must have an available Great Work of Writing and an available slot to place it in this city]"
+		]
+	},
+	{
+		"name": "Place Great Work of Art",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Unbuildable <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Will not be displayed in Civilopedia",
+
+			"Shown while unbuilable <with [Empty Great Work of Art slot]> <hidden from users>",
+			"Costs [1] [Great Work of Art] <hidden from users>",
+			"Provides [1] [Filled Great Work of Art slot] <hidden from users>",
+
+			"Comment [Place a Great Work of Art in this city]",
+			"Comment [Must have an available Great Work of Art and an available slot to place it in this city]"
 		]
 	}
 ]

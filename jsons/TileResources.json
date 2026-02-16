@@ -5,7 +5,6 @@
 		"uniques": ["Doesn't generate naturally",
 					"Excluded from map editor",
 					"Cannot be traded",
-					"Not shown on world screen",
 					"Will not be displayed in Civilopedia"]
 	},
 
@@ -30,8 +29,8 @@
 		"resourceType": "Strategic",
 		"uniques": ["Doesn't generate naturally",
 					"Excluded from map editor",
-					"Cannot be traded",
-					"[+2 Tourism, +2 Culture]",
+					"[+2 Culture]",
+					"Provides [2] [Tourism]",
 					"Will not be displayed in Civilopedia"]
 	}
 ]

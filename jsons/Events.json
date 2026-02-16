@@ -5,7 +5,7 @@
         "presentation": "Alert",
         "choices": [
             {
-                "text": "MovementOfGreatWorks",
+                "text": "TEST",
                 "uniques": "Move around your great works"
             }
         ]

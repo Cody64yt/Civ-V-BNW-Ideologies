@@ -18,6 +18,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Unbuildable",
 			"Shown while unbuilable",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia",
+			"Can be purchased with [Culture] [in all cities]"]
 	}
 ]

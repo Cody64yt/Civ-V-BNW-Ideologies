@@ -12,13 +12,23 @@
 		"requiredTech": "Industrialization",
 		"uniques": ["Provides [1] [Owned Factories] <hidden from users>"]
 	},
+
 	{
-		"name": "Place Great Work",
+		"name": "Amphitheater",
+		"culture": 1,
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "Provides [1] [Great Work of Writing slot]"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Place Great Work of Writing",
 		"cost": 0,
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Unbuildable <hidden from users>",
-			"Shown while unbuilable",
+			"Only available <with [Great Work of Writing slot]>",
 			"Unsellable <hidden from users>",
 			"Provides [2] [Placed Great Works] <hidden from users>",
 			"Will not be displayed in Civilopedia",

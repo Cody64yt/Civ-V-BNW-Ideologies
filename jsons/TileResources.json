@@ -3,7 +3,7 @@
 		"name": "Tourism",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
+					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"Cannot be traded",
 					"Will not be displayed in Civilopedia"
@@ -14,37 +14,39 @@
 		"name": "Owned Factories",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
+					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"Cannot be traded",
 					"Will not be displayed in Civilopedia"
 				]
     },
+
 	{
-		"name": "Great Work Slots",
+		"name": "Great Work of Writing slot",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
+					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"Cannot be traded",
+					"City-level resource",
 					"Will not be displayed in Civilopedia"
 				]
 	},
 	{
-		"name": "Great Works",
+		"name": "Great Work of Writing",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
+					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"Will not be displayed in Civilopedia",
 					"Stockpiled"
 				]
 	},
 	{
-		"name": "Placed Great Works",
+		"name": "Placed Great Work of Writing",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
+					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"[+2 Culture]",
 					"Provides [2] [Tourism]",

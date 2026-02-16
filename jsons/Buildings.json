@@ -16,13 +16,15 @@
 		"name": "Place Great Work",
 		"cost": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["Unbuildable <hidden from users>",
+		"uniques": [
+			"Unbuildable <hidden from users>",
 			"Shown while unbuilable",
 			"Unsellable <hidden from users>",
 			"Provides [2] [Placed Great Works] <hidden from users>",
 			"Will not be displayed in Civilopedia",
 			"Costs [1] [Great Work] <hidden from users>",
 			"Comment [Place a Great Work in this city]",
-			"Comment [Must have an available Great Work and an available slot to place it in this city]"]
+			"Comment [Must have an available Great Work and an available slot to place it in this city]"
+		]
 	}
 ]

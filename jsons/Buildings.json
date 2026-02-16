@@ -13,12 +13,14 @@
 		"uniques": ["Provides [1] [Owned Factories] <hidden from users>"]
 	},
 	{
-		"name": "Granary",
+		"name": "Move Great Works",
 		"cost": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["Unbuildable",
+		"uniques": ["Unbuildable <hidden from users>",
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
-			"Can be purchased for [0] [Gold] [in all cities]"]
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Triggers a [MovementOfGreatWorks] event",
+			"Comment [Use this to move your great works between your cities]"]
 	}
 ]

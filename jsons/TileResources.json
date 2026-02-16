@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Tourism",
+		"resourceType": "Strategic",
+		"uniques": ["Doesn't generate naturally",
+					"Excluded from map editor",
+					"Cannot be traded",
+					"Not shown on world screen",
+					"Will not be displayed in Civilopedia"]
+	},
+
+	{
+		"name": "Owned Factories",
+		"resourceType": "Strategic",
+		"uniques": ["Doesn't generate naturally",
+					"Excluded from map editor",
+					"Cannot be traded",
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+		"name": "Great Work Slots",
+		"resourceType": "Strategic",
+		"uniques": ["Doesn't generate naturally",
+					"Excluded from map editor",
+					"Cannot be traded",
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Great Works",
+		"resourceType": "Strategic",
+		"uniques": ["Doesn't generate naturally",
+					"Excluded from map editor",
+					"Cannot be traded",
+					"[+2 Tourism, +2 Culture]",
+					"Will not be displayed in Civilopedia"]
+	}
+]

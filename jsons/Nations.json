@@ -57,7 +57,7 @@
 		"innerColor": [0,60,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Dernia's Legacy",
-		"uniques": ["[+1 Happiness] from [{improved} {Strategic resource}] tiles [in all cities]","[+1] Range <for [Ranged] units> <in [Outpost] tiles>"],
+		"uniques": ["[+1 Happiness] from [{improved} {Strategic resource}] tiles [in all cities]","[+1] Range <for [Ranged] units> <in [Outpost] tiles> <hidden from users>"],
 		"cities": ["Lexington","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",

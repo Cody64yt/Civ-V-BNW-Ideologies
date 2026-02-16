@@ -68,8 +68,8 @@
 	
 		"name": "Trenchon",
 		"leaderName": "T",
-		"adjective": ["Lexington"],
-		"startBias": ["River"],
+		"adjective": ["Trenchon"],
+		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 		"personality": "Nebuchadnezzar II",
 

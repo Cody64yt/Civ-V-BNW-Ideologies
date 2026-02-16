@@ -5,7 +5,7 @@
 		"culture": 1,
 		"uniqueTo": "Earthorn",
 		"replaces": "Market",
-		"specialistSlots": {"Merchant": 1, "Artist": 1},
+		"specialistSlots": {"Merchant": 2, "Artist": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"

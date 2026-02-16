@@ -15,7 +15,7 @@
 	{
 		"name": "Granary",
 		"cost": 0,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 0,
 		"uniques": ["Unbuildable",
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",

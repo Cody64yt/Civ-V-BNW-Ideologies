@@ -41,6 +41,17 @@
 			"Provides [2] [Tourism] <for every [Placed Great Work of Writing]> <in all cities>"
 		]
 	},
+	{
+		"name": "Cultural Center",
+		"cost": 0,
+		"uniques": [
+			"Indicates the capital city",
+			"[+2 Culture] <for every [Placed Great Work of Writing]> <in all cities>",
+			"Unbuildable",
+			"Unsellable",
+			"Provides [2] [Tourism] <for every [Placed Great Work of Writing]> <in all cities>"
+		]
+	},
 
 	// Great Work of Writing
 	{

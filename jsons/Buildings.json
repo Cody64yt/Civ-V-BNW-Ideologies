@@ -27,29 +27,16 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	{
-		"name": "Palace",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2.5,
-		"cost": 0,
-		"uniques": [
-			"Indicates the capital city",
-			"[+2 Culture] <for every [Placed Great Work of Writing]> <in all cities>",
-			"Provides [2] [Tourism] <for every [Placed Great Work of Writing]> <in all cities>"
-		]
-	},
-	{
 		"name": "Cultural Center",
 		"cost": 0,
 		"uniques": [
-			"Indicates the capital city",
-			"[+2 Culture] <for every [Placed Great Work of Writing]> <in all cities>",
 			"Unbuildable",
 			"Unsellable",
-			"Provides [2] [Tourism] <for every [Placed Great Work of Writing]> <in all cities>"
+			"Automatically built in all cities where it is buildable",
+			"[+2 Culture] <for every [Placed Great Work of Writing]>",
+			"Provides [2] [Tourism] <for every [Placed Great Work of Writing]>",
+			"[+2 Culture] <for every [Placed Great Work of Art]>",
+			"Provides [2] [Tourism] <for every [Placed Great Work of Art]>"
 		]
 	},
 

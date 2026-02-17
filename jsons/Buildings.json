@@ -51,9 +51,9 @@
 			"Will not be displayed in Civilopedia",
 
 			"Shown while unbuilable <with [Great Work of Writing slot]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Writing]",
-            "Instantly provides [1] [Placed Great Work of Writing]",
+			"Can be purchased with [0] [Gold] <hidden from users>",
 			"Costs [1] [Great Work of Writing]",
+            "Instantly provides [1] [Placed Great Work of Writing] <hidden from users>",
 			"Remove [Place Great Work of Writing] [in all cities] <hidden from users>",
 
 			"Comment [Place a Great Work of Writing in this city]",

@@ -33,25 +33,22 @@
 				]
 	},
 	{
-		"name": "Empty Great Work of Writing slot",
+		"name": "Great Work of Writing slot",
 		"resourceType": "Strategic",
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"Cannot be traded",
 					"City-level resource",
-					"Will not be displayed in Civilopedia",
-					"Stockpiled"
+					"Will not be displayed in Civilopedia"
 				]
 	},
 	{
-		"name": "Filled Great Work of Writing slot",
+		"name": "Placed Great Work of Writing",
 		"resourceType": "Strategic",
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
-					"[+2 Culture]",
-					"Provides [2] [Tourism]",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
 					"Stockpiled"
@@ -69,25 +66,22 @@
 				]
 	},
 	{
-		"name": "Empty Great Work of Art slot",
+		"name": "Great Work of Art slot",
 		"resourceType": "Strategic",
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"Cannot be traded",
 					"City-level resource",
-					"Will not be displayed in Civilopedia",
-					"Stockpiled"
+					"Will not be displayed in Civilopedia"
 				]
 	},
 	{
-		"name": "Filled Great Work of Art slot",
+		"name": "Placed Great Work of Art",
 		"resourceType": "Strategic",
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
-					"[+2 Culture]",
-					"Provides [2] [Tourism]",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
 					"Stockpiled"

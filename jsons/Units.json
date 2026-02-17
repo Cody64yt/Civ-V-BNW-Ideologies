@@ -4,7 +4,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Can generate a large amount of culture",
-            "Instantly provides [1] [Great Work of Writing] <after which this unit is consumed>",
+            "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"
@@ -15,8 +15,8 @@
 		"name": "Great Artist",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <after which this unit is consumed>",
-            "Instantly provides [1] [Great Work of Art] <after which this unit is consumed>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"
@@ -27,8 +27,8 @@
 		"name": "Great Musician",
 		"unitType": "Civilian",
 		"uniques": [
-            "Instantly provides [1] [Great Musician Boost] <after which this unit is consumed>",
-            "Instantly provides [1] [Great Work of Music] <after which this unit is consumed>",
+            "Instantly provides [1] [Great Musician Boost] <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"

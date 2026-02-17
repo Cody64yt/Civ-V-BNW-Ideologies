@@ -20,9 +20,9 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Destroyed when the city is captured",
-            "Instantly provides [1] [Great Work of Writing slot] <hidden from users>",
+            "Instantly provides [1] [Great Work of Art slot] <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Comment [+1 Great Work of Writing slot]"
+			"Comment [+1 Great Work of Art slot]"
 		],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -35,7 +35,9 @@
 			"[+2 Culture] <for every [Placed Great Work of Writing]>",
 			"Provides [+2] [Tourism] <for every [Placed Great Work of Writing]>",
 			"[+2 Culture] <for every [Placed Great Work of Art]>",
-			"Provides [+2] [Tourism] <for every [Placed Great Work of Art]>"
+			"Provides [+2] [Tourism] <for every [Placed Great Work of Art]>",
+			"[+2 Culture] <for every [Placed Great Work of Music]>",
+			"Provides [+2] [Tourism] <for every [Placed Great Work of Music]>"
 		]
 	},
 	{

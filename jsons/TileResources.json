@@ -40,7 +40,8 @@
 					"Excluded from map editor",
 					"Cannot be traded",
 					"City-level resource",
-					"Will not be displayed in Civilopedia"
+					"Will not be displayed in Civilopedia",
+					"Stockpiled"
 				]
 	},
 	{
@@ -51,6 +52,8 @@
 					"Excluded from map editor",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
+					"[+2 Culture]",
+					"Provides [2] [Tourism]",
 					"Stockpiled"
 				]
 	},
@@ -73,7 +76,8 @@
 					"Excluded from map editor",
 					"Cannot be traded",
 					"City-level resource",
-					"Will not be displayed in Civilopedia"
+					"Will not be displayed in Civilopedia",
+					"Stockpiled"
 				]
 	},
 	{
@@ -84,6 +88,8 @@
 					"Excluded from map editor",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
+					"[+2 Culture]",
+					"Provides [2] [Tourism]",
 					"Stockpiled"
 				]
 	}

@@ -34,7 +34,12 @@
 		"cityStrength": 2.5,
 		"cost": 0,
 		"uniques": [
-			"Indicates the capital city"
+			"Indicates the capital city",
+        	"[+2 Culture] <for every [abs[[Great Work of Writing slot] - [Placed Great Work of Writing]]]>",
+			"Provides [2] [Tourism] <for every [abs[[Great Work of Writing slot] - [Placed Great Work of Writing]]]>",
+			
+			"[+2 Culture] <for every [abs[[Great Work of Art slot] - [Placed Great Work of Art]]]>",
+			"Provides [2] [Tourism] <for every [abs[[Great Work of Art slot] - [Placed Great Work of Art]]]>"
 		]
 	},
 

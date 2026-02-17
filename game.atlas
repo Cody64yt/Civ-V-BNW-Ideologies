@@ -1,9 +1,30 @@
 
 game.png
-size: 1024, 1024
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+ResourceIcons/Great Work of Art
+  rotate: false
+  xy: 747, 328
+  size: 460, 542
+  orig: 460, 542
+  offset: 0, 0
+  index: -1
+ResourceIcons/Placed Great Work of Art
+  rotate: false
+  xy: 747, 328
+  size: 460, 542
+  orig: 460, 542
+  offset: 0, 0
+  index: -1
+ResourceIcons/Great Work of Art slot
+  rotate: false
+  xy: 1215, 328
+  size: 460, 542
+  orig: 460, 542
+  offset: 0, 0
+  index: -1
 ResourceIcons/Great Work of Writing slot
   rotate: false
   xy: 4, 4

@@ -38,6 +38,20 @@
 			"Provides [+2] [Tourism] <for every [Placed Great Work of Art]>"
 		]
 	},
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": [
+			"Indicates the capital city",
+			"[10]% [Tourism] resource production <for every [Great Musician Boost]>"
+		]
+	},
 
 	// Great Work of Writing
 	{

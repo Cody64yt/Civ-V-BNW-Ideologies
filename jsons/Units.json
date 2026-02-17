@@ -3,7 +3,7 @@
 		"name": "Great Writer",
 		"unitType": "Civilian",
 		"uniques": [
-            "Can generate a large amount of culture <after which this unit is consumed>",
+            "Can generate a large amount of culture",
             "Instantly provides [1] [Great Work of Writing] <after which this unit is consumed>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
@@ -27,7 +27,7 @@
 		"name": "Great Musician",
 		"unitType": "Civilian",
 		"uniques": [
-            "[10]% [Tourism] resource production <after which this unit is consumed>",
+            "Instantly provides [1] [Great Musician Boost] <after which this unit is consumed>",
             "Instantly provides [1] [Great Work of Music] <after which this unit is consumed>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",

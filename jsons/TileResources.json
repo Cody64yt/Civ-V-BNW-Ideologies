@@ -50,6 +50,7 @@
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
+					"Cannot be traded",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
 					"Stockpiled"
@@ -84,6 +85,7 @@
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
+					"Cannot be traded",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
 					"Stockpiled"
@@ -118,9 +120,21 @@
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
+					"Cannot be traded",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
 					"Stockpiled"
 				]
-	}
+	},
+	{
+		"name": "Great Musician Boost",
+		"resourceType": "Strategic",
+		"uniques": [
+					"Doesn't generate naturally",
+					"Excluded from map editor",
+					"Cannot be traded",
+					"Will not be displayed in Civilopedia",
+					"Stockpiled"
+				]
+	},
 ]

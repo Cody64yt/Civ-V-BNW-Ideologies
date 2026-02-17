@@ -13,20 +13,6 @@
 		"uniques": ["Provides [1] [Owned Factories] <hidden from users>"]
 	},
 	{
-		"name": "Amphitheater",
-		"culture": 1,
-		"requiredBuilding": "Monument",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Destroyed when the city is captured",
-            "Instantly provides [1] [Great Work of Art slot] <hidden from users>",
-			"Unsellable <hidden from users>",
-			"Comment [+1 Great Work of Art slot]"
-		],
-		"requiredTech": "Drama and Poetry"
-	},
-	{
 		"name": "Cultural Center",
 		"cost": 0,
 		"uniques": [
@@ -51,9 +37,288 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"[10]% [Tourism] resource production <for every [Great Musician Boost]>"
+			"[+10]% [Tourism] resource production <for every [Great Musician Boost]>"
 		]
 	},
+
+	// Religious buildings
+
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 1,
+		"culture": 1,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Unbuildable",
+			"Only available <when religion is enabled>",
+            "Instantly provides [1] [Great Work of Art slot] <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Comment [+1 Great Work of Art slot]"
+		]
+	},
+
+	// Ancient Era
+	
+	// { - WILL BE CHANGED WHEN ADDING TRADE ROUTES
+	// 	"name": "Granary",
+	// 	"food": 2,
+	// 	"maintenance": 1,
+	// 	"hurryCostModifier": 25,
+	// 	"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+	// 		"[+1 Food] from [Bananas] tiles [in this city]",
+	// 		"[+1 Food] from [Wheat] tiles [in this city]"],
+	// 	"requiredTech": "Pottery"
+	// },
+
+	// Classical Era
+
+	{
+		"name": "Amphitheater",
+		// OLD - "culture": 3,
+		"culture": 1,
+		// OLD - "specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Destroyed when the city is captured",
+			// NEW(
+            "Instantly provides [1] [Great Work of Writing slot] <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Comment [+1 Great Work of Writing slot]"
+			// )
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]",
+			// NEW(
+			"[+1 Production] from [Water resource] tiles [in this city]"
+			// )
+		],
+		"requiredTech": "Optics"
+	},
+	// { - WILL BE CHANGED WHEN ADDING TRADE ROUTES
+	// 	"name": "Market",
+	// 	"gold": 2,
+	// 	"specialistSlots": {"Merchant": 1},
+	// 	"hurryCostModifier": 25,
+	// 	"percentStatBonus": {"gold": 25},
+	// 	"requiredTech": "Currency"
+	// },
+	// { - WILL BE CHANGED WHEN ADDING TRADE ROUTES
+	// 	"name": "Bazaar",
+	// 	"replaces": "Market",
+	// 	"uniqueTo": "Arabia",
+	// 	"gold": 2,
+	// 	"specialistSlots": {"Merchant": 1},
+	// 	"hurryCostModifier": 25,
+	// 	"percentStatBonus": {"gold": 25},
+	// 	"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+	// 		"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
+	// 	"requiredTech": "Currency"
+	// },
+
+	// Medieval Era
+	
+	{
+		"name": "Mughal Fort",
+		"cost": 150,
+		"replaces": "Castle",
+		"uniqueTo": "India",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"culture": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": [
+			"[+1 Gold] [in this city] <after discovering [Flight]>",
+			"Destroyed when the city is captured",
+			// NEW(
+			"Provides [+2] [Tourism] <after discovering [Flight]>"
+			// )
+		],
+		"requiredTech": "Chivalry"
+	},
+	// { - WILL BE CHANGED WHEN ADDING TRADE ROUTES
+	// 	"name": "Harbor",
+	// 	"cost": 120,
+	// 	"maintenance": 3,
+	// 	"hurryCostModifier": 25,
+	// 	"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+	// 		"Connects trade routes over water","Must be next to [Coast]"],
+	// 	"requiredTech": "Compass"
+	// },
+	// { - WILL BE CHANGED WHEN ADDING TRADE ROUTES
+	// 	"name": "Workshop",
+	// 	"maintenance": 2,
+	// 	"production": 2,
+	// 	"specialistSlots": {"Engineer": 1},
+	// 	"hurryCostModifier": 25,
+	// 	"percentStatBonus": {"production": 10},
+	// 	"requiredTech": "Metal Casting"
+	// },
+	// { - WILL BE CHANGED WHEN ADDING TRADE ROUTES
+	// 	"name": "Longhouse",
+	// 	"replaces": "Workshop",
+	// 	"uniqueTo": "Iroquois",
+	// 	"cost": 100,
+	// 	"maintenance": 2,
+	// 	"production": 2,
+	// 	"specialistSlots": {"Engineer": 1},
+	// 	"hurryCostModifier": 25,
+	// 	"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
+	// 	"requiredTech": "Metal Casting"
+	// },
+
+	// Renaissance Era
+
+	{
+		"name": "Opera House",
+		// OLD - "culture": 4,
+		"culture": 1,
+		// OLD - "specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		// OLD - "maintenance": 2,
+		"maintenance": 1,
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"Destroyed when the city is captured",
+			// NEW(
+            "Instantly provides [1] [Great Work of Music slot] <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Comment [+1 Great Work of Music slot]"
+			// )
+		]
+	},
+	{
+		"name": "Ceilidh Hall",
+		"replaces": "Opera House",
+		"uniqueTo": "Celts",
+		// OLD - "culture": 4,
+		"culture": 1,
+		"happiness": 3,
+		// OLD - "specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		// OLD - "maintenance": 2,
+		"maintenance": 1,
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"Destroyed when the city is captured",
+			// NEW(
+            "Instantly provides [1] [Great Work of Music slot] <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Comment [+1 Great Work of Music slot]"
+			// )
+		]
+	},
+	{ // DOESNT EXIST ANYMORE
+		"name": "Theatre",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{ // REPLACEMENT FOR THEATRE
+		"name": "Zoo",
+		// OLD (FROM THE THEATRE) - "happiness": 3,
+		"happiness": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+
+	// Industrial Era
+
+	{
+		"name": "Museum",
+		// OLD - "culture": 5,
+		"culture": 1,
+		// OLD - "specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"Destroyed when the city is captured",
+			// NEW(
+            "Instantly provides [2] [Great Work of Art slot] <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Comment [+2 Great Work of Art slot]"
+			// )
+		]
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 3,
+		// OLD - "percentStatBonus": {"gold": 33},
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+	},
+
+	// Modern Era
+	
+	{
+		"name": "Broadcast Tower",
+		// OLD - "culture": 3,
+		"culture": 1,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+			"Destroyed when the city is captured",
+			// NEW(
+            "Instantly provides [1] [Great Work of Music slot] <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Comment [+1 Great Work of Music slot]"
+			// )
+		]
+	},
+	// { // NEW BULIDING - TOO COMPLEX FOR NOW, WILL IMPLEMENT LATER
+	// 	"name": "Hotel",
+	// 	"cost": 300,
+	// 	"requiredTech": "Refrigeration",
+	// 	"uniques": [
+	// 		"Destroyed when the city is captured"
+	// 	]
+	// },
+	{
+		"name": "Stadium",
+		// OLD - "happiness": 4,
+		"happiness": 2,
+		"requiredBuilding": "Zoo",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+	},
+
+	// Atomic Era
+	
+	// { // NEW BULIDING - TOO COMPLEX FOR NOW, WILL IMPLEMENT LATER
+	// 	"name": "Airport",
+	// 	"cost": 300,
+	// 	"requiredTech": "Refrigeration",
+	// 	"uniques": [
+	// 		"Destroyed when the city is captured"
+	// 	]
+	// },
+
+	// Information Era
+
+	// none
 
 	// Great Work of Writing
 	{

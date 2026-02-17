@@ -30,7 +30,6 @@
 		"name": "Cultural Center",
 		"cost": 0,
 		"uniques": [
-			"Unbuildable",
 			"Unsellable",
 			"Automatically built in all cities where it is buildable",
 			"[+2 Culture] <for every [Placed Great Work of Writing]>",

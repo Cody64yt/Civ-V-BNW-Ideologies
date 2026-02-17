@@ -86,8 +86,40 @@
 					"Excluded from map editor",
 					"City-level resource",
 					"Will not be displayed in Civilopedia",
-					"[+2 Culture]",
-					"Provides [2] [Tourism]",
+					"Stockpiled"
+				]
+	},
+	// Great Work of Music
+	{
+		"name": "Great Work of Music",
+		"resourceType": "Strategic",
+		"uniques": [
+					"Doesn't generate naturally",
+					"Excluded from map editor",
+					"Will not be displayed in Civilopedia",
+					"Stockpiled"
+				]
+	},
+	{
+		"name": "Great Work of Music slot",
+		"resourceType": "Strategic",
+		"uniques": [
+					"Doesn't generate naturally",
+					"Excluded from map editor",
+					"Cannot be traded",
+					"City-level resource",
+					"Will not be displayed in Civilopedia",
+					"Stockpiled"
+				]
+	},
+	{
+		"name": "Placed Great Work of Music",
+		"resourceType": "Strategic",
+		"uniques": [
+					"Doesn't generate naturally",
+					"Excluded from map editor",
+					"City-level resource",
+					"Will not be displayed in Civilopedia",
 					"Stockpiled"
 				]
 	}

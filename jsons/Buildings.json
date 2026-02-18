@@ -38,7 +38,8 @@
 		"uniques": [
 			"Indicates the capital city",
 			"[+10]% [Tourism Per Turn] resource production <for every [Great Musician Boost]>",
-			"Instantly provides [1] [Tourism] <for every [Tourism Per Turn]> <for every [Remaining [{Known} {Major}] Civilizations]> <every [1] turns>"
+			"Instantly provides [1] [Tourism] <for every [Tourism Per Turn]> <for every [Remaining [{Known} {Major}] Civilizations]> <every [1] turns>",
+			"Provides [+1] [Tourism]"
 		]
 	},
 

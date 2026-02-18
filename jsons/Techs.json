@@ -651,7 +651,7 @@
 				"name": "The Internet",
 				"row": 1,
 				"prerequisites": ["Telecommunications"],
-                "uniques": ["[+100]% [Tourism] resource production <hidden from users>","Comment [Doubles the Tourism output of all your cities]","Comment [Effect negated in a civilization with the Great Firewall]"],
+                "uniques": ["[+100]% [Tourism Per Turn] resource production <hidden from users>","Comment [Doubles the Tourism output of your entire civilization\nEffect negated in a civilization with the Great Firewall]"],
 				"quote": "'The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.' - Eric Schmidt"
 			},
 			{

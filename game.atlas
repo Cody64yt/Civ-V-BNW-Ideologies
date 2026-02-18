@@ -32,3 +32,10 @@ ResourceIcons/Great Work of Writing slot
   orig: 735, 866
   offset: 0, 0
   index: -1
+ResourceIcons/TechIcons/The Internet
+  rotate: false
+  xy: 747, 146
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1

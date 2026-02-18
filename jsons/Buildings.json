@@ -19,11 +19,11 @@
 			"Unsellable",
 			"Automatically built in all cities where it is buildable",
 			"[+2 Culture] <for every [Placed Great Work of Writing]>",
-			"Provides [+2] [Tourism Per Turn] <for every [Placed Great Work of Writing]>",
+			"Provides [+2] [Tourism] <for every [Placed Great Work of Writing]>",
 			"[+2 Culture] <for every [Placed Great Work of Art]>",
-			"Provides [+2] [Tourism Per Turn] <for every [Placed Great Work of Art]>",
+			"Provides [+2] [Tourism] <for every [Placed Great Work of Art]>",
 			"[+2 Culture] <for every [Placed Great Work of Music]>",
-			"Provides [+2] [Tourism Per Turn] <for every [Placed Great Work of Music]>"
+			"Provides [+2] [Tourism] <for every [Placed Great Work of Music]>"
 		]
 	},
 	{
@@ -37,9 +37,8 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"[+10]% [Tourism Per Turn] resource production <for every [Great Musician Boost]>",
-			"Instantly provides [1] [Tourism] <for every [Tourism Per Turn]> <for every [Remaining [{Known} {Major}] Civilizations]> <every [1] turns>",
-			"Provides [+1] [Tourism]"
+			"[+10]% [Tourism] resource production <for every [Great Musician Boost]>",
+			"Provides [+1] [Tourism] <for every [Remaining [{Known} {Major}] Civilizations]>"
 		]
 	},
 
@@ -144,7 +143,7 @@
 			"[+1 Gold] [in this city] <after discovering [Flight]>",
 			"Destroyed when the city is captured",
 			// NEW(
-			"Provides [+2] [Tourism Per Turn] <after discovering [Flight]>"
+			"Provides [+2] [Tourism] <after discovering [Flight]>"
 			// )
 		],
 		"requiredTech": "Chivalry"

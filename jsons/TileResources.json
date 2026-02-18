@@ -16,7 +16,8 @@
 					"Doesn't generate naturally",
 					"Excluded from map editor",
 					"Cannot be traded",
-					"Will not be displayed in Civilopedia"
+					"Will not be displayed in Civilopedia",
+					"Stockpiled"
 				]
 	},
 

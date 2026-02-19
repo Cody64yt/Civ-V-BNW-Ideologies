@@ -2,5 +2,6 @@
     "isBaseRuleset": false,
     "religionsToRemove": [
         "Christianity"
-    ]
+    ],
+    "uniques": ["Mod requires [Civ V - Gods & Kings]"]
 }

@@ -1,16 +1,32 @@
 [
     {
-		"name": "Great Writer",
-		"unitType": "Civilian",
-		"uniques": [
+        "name": "Archaeologist",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can generate a large amount of culture",
+            "Can build [Excavate] improvements on tiles",
+            "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Artist] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"
+        ],
+        "movement": 2
+    },
+
+    // Great people
+    
+    {
+        "name": "Great Writer",
+        "unitType": "Civilian",
+        "uniques": [
             "Can generate a large amount of culture",
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"
         ],
-		"movement": 2
-	},
+        "movement": 2
+    },
     {
 		"name": "Great Artist",
 		"unitType": "Civilian",

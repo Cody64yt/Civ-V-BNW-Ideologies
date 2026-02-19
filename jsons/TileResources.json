@@ -17,6 +17,7 @@
 		"uniques": [
 					"Doesn't generate naturally",
 					"Excluded from map editor",
+					"Not shown on world screen",
 					"Cannot be traded",
 					"Will not be displayed in Civilopedia"
 				]
@@ -135,6 +136,19 @@
 					"Excluded from map editor",
 					"Cannot be traded",
 					"Will not be displayed in Civilopedia",
+					"Not shown on world screen",
+					"Stockpiled"
+				]
+	},
+	{
+		"name": "Antiquity Site",
+		"resourceType": "Strategic",
+		"uniques": [
+					"Deposits in [all] tiles always provide [1] resources",
+					"Excluded from map editor",
+					"Cannot be traded",
+					"Will not be displayed in Civilopedia",
+					"Not shown on world screen",
 					"Stockpiled"
 				]
 	}

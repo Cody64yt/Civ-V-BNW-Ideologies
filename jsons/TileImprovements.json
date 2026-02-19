@@ -1,0 +1,11 @@
+[
+
+  {
+    "name": "Excavate",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "turnsToBuild": 3,
+    "techRequired": "Archaeology",
+    "uniques": ["Can be built outside your borders", "Can only be built to improve a resource", "Unbuildable", "Unpillagable", "Irremovable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+  }
+]

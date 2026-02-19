@@ -1,3 +1,6 @@
 {
-    "isBaseRuleset": false
+    "isBaseRuleset": false,
+    "religionsToRemove": [
+        "Christianity"
+    ]
 }

@@ -1,15 +1,16 @@
 [
-    "Buddhism",
-    "Catholicism",
-    "Confucianism",
-    "Eastern Orthodoxy", // needs image
-    "Hinduism",
-    "Islam",
-    "Judaism",
-    "Protestantism", // needs image
-    "Shinto",
-    "Sikhism",
-    "Taoism",
-    "Tengriism",
-    "Zoroastrianism"
+    // "Buddhism",
+    // "Christianity", // BNW-CHANGED - REMOVED
+    "Catholicism", // BNW-CHANGED - REPLACES "Christianity"
+    // "Confucianism",
+    "Eastern Orthodoxy", // BNW-CHANGED - NEW
+    // "Hinduism",
+    // "Islam",
+    // "Judaism",
+    "Protestantism" // BNW-CHANGED - NEW
+    // "Shinto",
+    // "Sikhism",
+    // "Taoism",
+    // "Tengriism",
+    // "Zoroastrianism"
 ]

@@ -1,0 +1,55 @@
+
+game.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Catholicism
+  rotate: false
+  xy: 4, 102
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ReligionIcons/Eastern Orthodoxy
+  rotate: false
+  xy: 186, 284
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ReligionIcons/Protestantism
+  rotate: false
+  xy: 4, 4
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ResourceIcons/Great Work of Art
+  rotate: false
+  xy: 4, 382
+  size: 460, 542
+  orig: 460, 542
+  offset: 0, 0
+  index: -1
+ResourceIcons/Placed Great Work of Art
+  rotate: false
+  xy: 4, 382
+  size: 460, 542
+  orig: 460, 542
+  offset: 0, 0
+  index: -1
+ResourceIcons/Great Work of Art slot
+  rotate: false
+  xy: 472, 382
+  size: 460, 542
+  orig: 460, 542
+  offset: 0, 0
+  index: -1
+TechIcons/The Internet
+  rotate: false
+  xy: 4, 200
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
